@@ -13,6 +13,7 @@ import Menu from "./ex7-props/Menu";
 import App from "./ex7-props/App";
 import Car from "./ex8-state/Car";
 import ProductList from "./ex8-state/ProductList";
+import Counter from "./ex9-events.js/Counter";
 
 const greetingMessage = <div>Hello React</div>;
 
@@ -29,4 +30,4 @@ console.log(">>>>>>Hello React!");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const names = ["Liljana Ristevska", "Test Testsson", "Konstantin Ristevski"];
-root.render(<Car />);
+root.render(<Counter />);
